@@ -64,6 +64,7 @@ i = 0
 end
 
 def gross_per_studio(collection)
+  binding.pry
     # puts "****************LOL****************"
     # puts collection.inspect
     # studio_gross = {}
