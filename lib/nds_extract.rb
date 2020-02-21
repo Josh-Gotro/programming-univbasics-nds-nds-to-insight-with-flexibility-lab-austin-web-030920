@@ -23,6 +23,7 @@ def flatten_a_o_a(aoa)
 end
 
 def movie_with_director_name(director_name, movie_data)
+  binding.pry
   { 
     :title => movie_data[:title],
     :worldwide_gross => movie_data[:worldwide_gross],
@@ -70,7 +71,7 @@ def gross_per_studio(collection)
     studio_gross = {}
     i = 0 
     while i < collection.length do 
-      studio_gross[director_name[i]] = collection[i][:director_name]
+      movie_with_director_name(director_name, movie_data)
       if 
     end
   end  
