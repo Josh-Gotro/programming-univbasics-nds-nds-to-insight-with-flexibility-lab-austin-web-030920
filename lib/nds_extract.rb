@@ -70,7 +70,7 @@ def gross_per_studio(collection)
     studio_gross = {}
     i = 0 
     while i < collection.length do 
-      studio_gross[]
+      studio_gross[director_name[i]] = collection[i][:director_name]
       if 
     end
   end  
