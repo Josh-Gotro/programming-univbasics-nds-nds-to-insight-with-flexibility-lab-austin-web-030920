@@ -39,12 +39,12 @@ end
 def movies_with_director_key(name, movies_collection)
   # puts "+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+="
   # puts movies_collection.inpsect
- director_collection = []
- i = 0 
-  while i < movies_collection.length do
-    single_movie = movie_with_director_name(name, movies_collection[i])
-  director_collection.push(single_movie)
-    i += 1 
+# director_collection = []
+# i = 0 
+#   while i < movies_collection.length do
+#     single_movie = movie_with_director_name(name, movies_collection[i])
+#   director_collection.push(single_movie)
+#     i += 1 
  end
  director_collection
 ###################################
