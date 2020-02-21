@@ -70,6 +70,7 @@ def gross_per_studio(collection)
     studio_gross = {}
     i = 0 
     while i < collection.length do 
+      studio_gross[]
       if 
     end
   end  
