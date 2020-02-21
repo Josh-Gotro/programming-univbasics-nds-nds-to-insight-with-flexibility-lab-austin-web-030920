@@ -70,7 +70,9 @@ def gross_per_studio(collection)
     studio_gross = {}
     i = 0 
     while i < collection.length do 
-      movie_with_director_name(director_name, movie_data)
+      c = 0 
+      while c < collection.length do 
+        studio_gross[]
       
     end
   end  
