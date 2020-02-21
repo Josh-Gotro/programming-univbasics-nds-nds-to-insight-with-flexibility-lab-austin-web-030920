@@ -36,7 +36,7 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  # puts "-------------------------++++++_----------"
+  # puts "+="
   # puts movies_collection.inpsect
  director_collection = []
  i = 0 
@@ -65,9 +65,11 @@ def movies_with_director_key(name, movies_collection)
 end
 
 def gross_per_studio(collection)
-    puts "****************LOL****************"
-    puts collection.inspect
-    pp collection
+    # puts "****************LOL****************"
+    # puts collection.inspect
+    studio_gross = {}
+    i = 0 
+    while 
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
   # return a Hash that includes the total worldwide_gross of all the movies from
   # each studio.
