@@ -39,12 +39,12 @@ end
 def movies_with_director_key(name, movies_collection)
   # puts "+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+="
   # puts movies_collection.inpsect
-# director_collection = []
-# i = 0 
-#   while i < movies_collection.length do
-#     single_movie = movie_with_director_name(name, movies_collection[i])
-#   director_collection.push(single_movie)
-#     i += 1 
+director_collection = []
+i = 0 
+  while i < movies_collection.length do
+    single_movie = movie_with_director_name(name, movies_collection[i])
+  director_collection.push(single_movie)
+    i += 1 
  end
  director_collection
 ###################################
@@ -67,14 +67,14 @@ end
 def gross_per_studio(collection)
     # puts "****************LOL****************"
     # puts collection.inspect
-    studio_gross = {}
-    i = 0 
-    while i < collection.length do 
-      c = 0 
-      while c < collection.length do 
-       +=  studio_gross[i][:worldwide_gross]
+    # studio_gross = {}
+    # i = 0 
+    # while i < collection.length do 
+    #   c = 0 
+    #   while c < collection.length do 
+    #   +=  studio_gross[i][:worldwide_gross]
       
-    end
+    # end
   end  
       
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
