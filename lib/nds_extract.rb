@@ -72,7 +72,7 @@ def gross_per_studio(collection)
     i = 0 
     while i < collection.length do 
       movie_with_director_name(director_name, movie_data)
-      if 
+      
     end
   end  
       
