@@ -64,17 +64,18 @@ i = 0
 end
 
 def gross_per_studio(collection)
-  binding.pry
     # puts "****************LOL****************"
     # puts collection.inspect
-    # studio_gross = {}
-    # i = 0 
-    # while i < collection.length do 
-    #   c = 0 
+    
+    studio_gross = {}
+    i = 0 
+    while i < collection.length do 
+  binding.pry
     #   while c < collection.length do 
     #   +=  studio_gross[i][:worldwide_gross]
-      
-    # end
+    
+      i += 1
+    end
   end  
       
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
@@ -88,6 +89,11 @@ def gross_per_studio(collection)
   #
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
+  
+#   [1] pry(#<RSpec::ExampleGroups::GrossPerStudio>)> collection
+# => [{:title=>"Movie A", :studio=>"Alpha Films", :worldwide_gross=>10},
+# {:title=>"Movie B", :studio=>"Alpha Films", :worldwide_gross=>30},
+# {:title=>"Movie C", :studio=>"Omega Films", :worldwide_gross=>30}]
 
 
 def movies_with_directors_set(source)
